@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>City Population | US</title>
+</head>
+
+<body class="flex flex-col min-h-screen">
+    <main class="container flex-grow max-w-screen-sm p-5 mx-auto">
+        <form class="search-form mb-3">
+            <input type="text"
+                class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal search placeholder-gray-500"
+                placeholder="City or State">
+        </form>
+        <ul class="suggestions bg-white grid grid-cols-1 row-gap-2 px-4 py-4">
+            <p class="text-teal-800 text-center">Please insert a city to state to search for</p>
+        </ul>
+    </main>
+
+    <footer class=" bg-gray-400">
+        <div class="container text-center py-2">
+            Made with <span class="text-red-800">&#9829;</span> by Bulu Designs
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
